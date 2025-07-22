@@ -113,7 +113,7 @@ const Auth = () => {
         
         if (!result.error) {
           toast({
-            title: "Welcome back!",
+            title: "Welcome back, Mama!",
             description: "Successfully logged in to your MamaAlert account.",
           });
           // Navigation will be handled by useEffect above
@@ -162,7 +162,7 @@ const Auth = () => {
           <div className="text-center mb-8">
             <div className="flex items-center justify-center gap-3 mb-6">
               <img 
-                src="/lovable-uploads/c1d146a9-2b02-45d8-acf9-01d2ff34c105.png" 
+                src="mama-logo.png" 
                 alt="MamaAlert Logo" 
                 className="h-12 w-12"
               />
